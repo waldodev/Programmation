@@ -1,0 +1,19 @@
+﻿<Window x:Class="tudoistoutapprendre.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tudoistoutapprendre"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="700" Background="DimGray">
+
+    <Grid>
+        <Label x:Name="label" Content="user" HorizontalAlignment="Left" Margin="224,163,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="password" HorizontalAlignment="Left" Margin="224,210,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="305,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="305,210,0,0" VerticalAlignment="Top" Width="240"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="579,163,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.204,0.121" Height="67" Background="Bisque" Click="button_Click"/>
+        <Label x:Name="etatconnexion" Content="" HorizontalAlignment="Left" Margin="305,65,0,0" VerticalAlignment="Top" Width="240" Height="33" Visibility="Hidden" Foreground="Transparent"/>
+    </Grid>
+
+</Window>
